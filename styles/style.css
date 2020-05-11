@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #e5eff5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  margin-top: 2%;
+  width: 50%;
+}
+
+.card .main .title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #2ab2af;
+}
+
+.card .main .title2 {
+  font-size: 1.5em;
+  color: #c0df34;
+  font-weight: 700;
+}
+
+.card .main .paragraph {
+  color: #98a6bd;
+}
+
+.card .pitch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e5eff5;
+  width: 100%;
+}
+
+.card .pitch .signUp {
+  padding: 5%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #2ab2af;
+}
+
+.card .pitch .signUp .signUptitle {
+  font-size: 1.1em;
+  font-weight: 700;
+  display: block;
+}
+
+.card .pitch .signUp .inline {
+  display: inline-block;
+}
+
+.card .pitch .signUp .bold {
+  font-size: 2em;
+}
+
+.card .pitch .signUp div {
+  text-align: center;
+}
+
+.card .pitch .signUp div button {
+  background-color: #c0df34;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card .pitch .whyUs {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: rgba(42, 178, 175, 0.726);
+  padding: 5%;
+}
+
+.card .pitch .whyUs .title {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.card .pitch .whyUs .paragraph {
+  opacity: 0.9;
+}
+
+footer {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

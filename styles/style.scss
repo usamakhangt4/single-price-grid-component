@@ -1,0 +1,94 @@
+@import "./variables";
+* {
+  font-family: "Karla", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: $lightGray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 2%;
+  //   padding: 5%;
+  width: 50%;
+  .main {
+    .title {
+      font-size: 2em;
+      font-weight: 700;
+      color: $cyan;
+    }
+    .title2 {
+      font-size: 1.5em;
+      color: $brightYellow;
+      font-weight: 700;
+    }
+    .paragraph {
+      color: $grayishBlue;
+    }
+  }
+  .pitch {
+    display: flex;
+    justify-content: center;
+    color: $lightGray;
+    width: 100%;
+    .signUp {
+      padding: 5%;
+      flex: 1;
+      background-color: $cyan;
+      .signUptitle {
+        font-size: 1.1em;
+        font-weight: 700;
+        display: block;
+      }
+      .inline {
+        display: inline-block;
+      }
+      .bold {
+        font-size: 2em;
+      }
+      div {
+        text-align: center;
+        button {
+          background-color: $brightYellow;
+          border: none;
+          width: 150px;
+          height: 40px;
+          border-radius: 5px;
+          color: #fff;
+          font-weight: 700;
+          cursor: pointer;
+        }
+      }
+    }
+    .whyUs {
+      flex: 1;
+      background-color: hsla(179, 62%, 43%, 0.726);
+      padding: 5%;
+      .title {
+        font-size: 1.2em;
+        font-weight: 700;
+      }
+      .paragraph {
+        opacity: 0.9;
+      }
+    }
+  }
+}
+footer {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
